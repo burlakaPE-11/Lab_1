@@ -34,8 +34,8 @@ int main()
 
     for(i; i<=N; i++)
       {
-        x3=x1*1;
-        //my function F(x)=x1*1
+        x3=x1+1;
+        //my function F(x)=x1+1
         printf("\t|     %d    |   %.2lf  |   %.2lf  |\t\n",i,x1,x3);
         printf("\t+----------+----------+----------+\t\n");
         x1++;
@@ -60,8 +60,8 @@ int main()
 
     for(i; i<=x2; i++)
     {
-        x3=x1*1;
-        //my function F(x)=x1*1
+        x3=x1+1;
+        //my function F(x)=x1+1
         printf("\t|     %d    |   %.2lf  |   %.2lf   |\t\n",i,x1,x3);
         printf("\t+----------+----------+----------+\t\n");
         x1=x1+delta;
